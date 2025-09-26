@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Jenny Chau</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+			<script type="text/javascript">
+				(function() {
+					emailjs.init({
+					publicKey: "r4_4uGsU3MmXhyP2y",
+					});
+				})();
+    		</script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#welcome"><span class="icon solid fa-user"></span>&nbsp;&nbsp;&nbsp;Jenny Chau</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navigationbar">
+						<ul class="navbar-nav mb-lg-0">
+							<li class="nav-item"><a href="#welcome">Welcome</a></li>
+							<li class="nav-item"><a href="#experiences">My Experiences</a></li>
+							<li class="nav-item"><a href="#projects">Projects</a></li>
+							<li class="nav-item"><a href="#faq">FAQ</a></li>
+							<li class="nav-item"><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+		<!-- Welcome -->
+			<article id="welcome" class="wrapper style1">
+				<div class="welcome-container">
+					<div class="row welcome-row">
+						<div class="col-12 col-md-4 col-sm-5">
+							<img class="img-fluid headshot" src="images/chau_jenny_headshot.PNG" alt="" />
+						</div>
+						<div class="welcome-text col-12 col-md-8 col-sm-7">
+							<header>
+								<h1>Hi. I'm <strong>Jenny Chau</strong>.</h1>
+							</header>
+							<p>Welcome to my portfolio!</p>
+							<p>I’m a former molecular biologist turned full-stack software engineer, specializing in TypeScript, React, Python, and Flask. My experience as a research scientist taught me how to approach complex challenges with precision and critical thinking. Applying that same mindset to software engineering, I am now dedicated to building user-focused, scalable applications that solve real-world problems.</p>
+							<a id="resume_button" href="images/Jenny_Chau_resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+						</div>
+					</div>
+				</div>
+				<br/>
+				<div class="scroll-buttons">
+					<a href="#experiences" class="scrolly scroll-next-button">Learn more about me! <br/><span class="icon solid fa-chevron-down"></span></a>
+				</div>
+			</article>
+
+		<!-- My Experiences -->
+			<article id="experiences" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Experiences</h2>
+					</header>
+					<div class="timeline">
+						<div class="timeline-container left">
+							<div class="content">
+							<h2 class="timeline-header">2021</h2>
+							<p class="timeline-text">Graduated from UC Berkeley with a bachelor's degree in Molecular and Cell Biology, Immunology and Pathogenesis.</p>
+							</div>
+						</div>
+						<div class="timeline-container right">
+							<div class="content">
+							<h2 class="timeline-header timeline-2">2021 - Present</h2>
+							<p class="timeline-text timeline-2"><strong>Companies:</strong> Gigagen, Biotium</p>
+							<p class="timeline-text"><strong>Roles:</strong> Research Associate / Senior Research Associate</p>
+							<p class="timeline-text timeline-2">After graduating college, I started working as a biotech researcher. I worked on developing assays, 
+								testing out new instruments, and improving the company's core platform. During this time, I co-authored two published research papers:
+								<br/>
+								<div class="citations">
+									<a class="research-paper-citation" href="https://doi.org/10.1038/s41588-024-01943-z" target="_blank">A regulatory network controlling developmental boundaries and meristem fates contributed to maize domestication. Nature Genetics, 56(11), 2528–2537.</a>
+									<br/><br/>
+									<a class="research-paper-citation" href="https://doi.org/10.1016/j.crmeth.2024.100934" target="_blank">High-throughput specificity profiling of antibody libraries using ribosome display and microfluidics. Cell Reports Methods, 4(12), 100934.</a>
+								</div>
+							</p>
+							</div>
+						</div>
+						<div class="timeline-container left">
+							<div class="content">
+							<h2 class="timeline-header timeline-2">Present</h2>
+							<p class="timeline-text"><strong>Role:</strong> Full-Stack Software Engineer</p>
+							<p class="timeline-text">I graduated from Coding Temple as a full-stack software engineer. 
+								I created a mechanic shop API using <strong>Python</strong> and <strong>Flask</strong>, as well as an e-commerce web app using 
+								<strong>Typescript</strong>, <strong>React</strong>, <strong>Firebase/Firestore</strong>, and <strong>Bootstrap</strong>. 
+								Currently, I'm working with a small team on building a health tracking app that integrates health and AI.</p>
+							</div>
+						</div>
+					</div>
+					<br/><br/>
+				</div>
+				<br/>
+				<br/>
+				<div class="scroll-buttons">
+					<a href="#projects" class="scrolly scroll-next-button">Recent projects <br/><span class="icon solid fa-chevron-down"></span></a>
+				</div>
+				</article>
+
+		<!-- Projects -->
+			<article id="projects" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Project Showcase</h2>
+					</header>
+					<div class="row">
+						<div class="col-12 col-sm-6">
+							<div class="project-container" data-url="https://mymechanicshop-api.onrender.com/api/docs/">
+								<article class="box style2">
+									<div class="image featured project-link">
+										<div class="video-container">
+											<video class="example-video" src="videos/mechanicShopAPI.mov" muted loop></video>
+										</div>
+									</div>
+									<h3>Mechanic Shop API</h3>
+									<p>Python / Flask</p>
+									<a class="project-github" data-url="https://github.com/jenny-chau/MyMechanicShop_API.git"><span class="icon brands fa-github"></span><strong> GitHub</strong></a>
+								</article>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6">
+							<div class="project-container" data-url="https://e-commerce-web-app-firebase.vercel.app/">
+								<article class="box style2">
+									<div class="image featured project-link">
+										<div class="video-container">
+											<video class="example-video" src="videos/ecommerce.mov" muted loop></video>
+										</div>
+									</div>
+									<h3>E-Commerce Web App</h3>
+									<p>Typescript / React / Firebase</p>
+									<a class="project-github" data-url="https://github.com/jenny-chau/E-Commerce_Web_App_Firebase.git"><span class="icon brands fa-github"></span><strong> GitHub</strong></a>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br/><br/>
+				<div class="scroll-buttons">
+					<a href="#faq" class="scrolly scroll-next-button">Learn more about me in the FAQ<br/><span class="icon solid fa-chevron-down"></span></a>
+				</div>
+			</article>
+
+			<!-- FAQ -->
+			<article id="faq" class="wrapper style5">
+				<div class="container">
+					<header>
+						<h2>FAQ</h2>
+					</header>
+					<div class="accordion" id="faq">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headerOne">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<strong>What are your programming skills?</strong>
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headerOne" data-bs-parent="#faq">
+								<div class="accordion-body">
+									<strong>Languages:</strong> JavaScript, Typescript, HTML5, CSS3, Python
+									<br/><strong>Frameworks/Libraries:</strong> React, Bootstrap, Flask, Marshmallow
+									<br/><strong>Databases/Tools/Dev Ops:</strong> SQL, Github, RESTful APIs, JWT, Firebase/Firestore, Swagger, Github Actions
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headerTwo">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+									<strong>What are your interests?</strong>
+								</button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headerTwo" data-bs-parent="#faq">
+								<div class="accordion-body">
+									My interests lie in the intersection of technology, AI, and creating positive impact. With my background in biotech, I've gained 
+									an appreciation for projects that improve people’s lives, and I carry that motivation into software engineering. 
+									I enjoy building applications that are both practical and impactful — whether that’s creating tools that make 
+									everyday tasks easier or exploring how emerging technologies like AI can open new possibilities. What excites me 
+									most is using my skills to create something that genuinely helps others.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headerThree">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" arial-controls="collapseThree">
+									<strong>How will you contribute to the company?</strong>
+								</button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headerThree" data-bs-parent="#faq">
+								<div class="accordion-body">
+									I’ll contribute to the company by combining my technical skills in full-stack development — using React, TypeScript, Python, and Flask — with the problem-solving 
+									and detail-oriented mindset I developed as a scientist. I’m proactive about learning and like to do my own research before asking for help, which allows me to get up to speed 
+									efficiently while respecting my teammates’ time. I thrive in collaborative environments, so when I do ask questions, they’re thoughtful and focused on moving 
+									projects forward. Most importantly, I’m motivated by building impactful applications and continuously learning as much as I can, so I’ll not only focus on delivering 
+									high-quality code, but also on creating solutions that make a real difference for users and align with the company’s goals.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headerFour">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" arial-controls="collapseFour">
+									<strong>Why the career change?</strong>
+								</button>
+							</h2>
+							<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headerFour" data-bs-parent="#faq">
+								<div class="accordion-body">
+									I started my career in biotech, where I worked on developing antibody therapeutics. What I enjoyed most was tackling complex problems — designing experiments, 
+									analyzing data, researching potential solutions, and collaborating with others to progress projects. Over time, I realized I was just as fascinated by the tools and systems that made 
+									this work possible, and that curiosity led me to software engineering. I decided to make the switch because I wanted to apply the same critical thinking and 
+									problem-solving skills in a field where I could build scalable, user-focused applications and see the impact more directly. My goal is to work on 
+									projects that not only challenge me technically but also make a meaningful difference for others, just like the therapeutic work I contributed to as a scientist.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headerFive">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" arial-controls="collapseFive">
+									<strong>What is your ideal work environment / manager?</strong>
+								</button>
+							</h2>
+							<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headerFive" data-bs-parent="#faq">
+								<div class="accordion-body">
+									I thrive in a work environment that centers around passion, support, and transparency. I enjoy working with teammates who are excited about what they’re 
+									building, managers who encourage growth and collaboration, and a culture where open communication helps everyone do their best work.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headerSix">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" arial-controls="collapseSix">
+									<strong>Who are you outside of work?</strong>
+								</button>
+							</h2>
+							<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headerSix" data-bs-parent="#faq">
+								<div class="accordion-body">
+									Outside of work, I run a crochet small business and love making amigurumi plushies. With my software engineering skills, I’m working on building a 
+									website for my shop and exploring how technology can support the crochet community. For example, I’ve noticed challenges with digital product theft and 
+									resale, and I’m interested in how tools like blockchain and AI could help protect artists and customers. While these are ambitious goals, I enjoy 
+									learning and tackling complex problems.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headerSeven">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" arial-controls="collapseSeven">
+									<strong>Where are you located?</strong>
+								</button>
+							</h2>
+							<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headerSeven" data-bs-parent="#faq">
+								<div class="accordion-body">
+									I am based in the San Francisco Bay Area!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br/><br/>
+				<div class="scroll-buttons">
+					<a href="#contact" class="scrolly scroll-next-button">Have more questions? Let's connect!<br/><span class="icon solid fa-chevron-down"></span></a>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container">
+					<header>
+						<h2>Contact</h2>
+					</header>
+					<div class="row">
+						<div class="col-12 col-sm-6 d-flex flex-column align-items-center mb-3">
+							<h3>Located in the San Francisco Bay Area</h3>
+							<iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/view?zoom=11&center=37.7749%2C-122.4194&key=AIzaSyBdvZvUs9EGXGD3hWPnHCHd_VTSjz3NcQU"></iframe>
+						</div>
+						<div class="col-12 col-sm-6">
+							<h3>Find me on: </h3>
+							<ul class="social">
+								<li><a href="http://linkedin.com/in/geeyun-jenny-chau" class="icon brands fa-linkedin-in"><span class="label"></span></a></li>
+								<li><a href="https://github.com/jenny-chau" class="icon brands fa-github"><span class="label"></span></a></li>
+							</ul>
+							<br/>
+							<h3 id="contact-message-header">Or send me a message:</h3>
+							<form id='message-form' class="needs-validation" method="POST" novalidate>
+								<div class="row">
+									<div class="col-12 col-sm-6">
+										<input class="form-control" type="text" name="name" id="name" placeholder="Name" required/>
+										<div class="invalid-feedback">
+											Please enter your name.
+										</div>
+									</div>
+									<div class="col-12 col-sm-6">
+										<input class="form-control" type="email" name="email" id="email" placeholder="Email" required/>
+										<div class="invalid-feedback">
+											Invalid email
+										</div>
+									</div>
+									<div class="col-12">
+										<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject" required/>
+										<div class="invalid-feedback">
+											Please enter a subject.
+										</div>
+									</div>
+									<div class="col-12">
+										<textarea class="form-control" name="message" id="message" placeholder="Message" required></textarea>
+										<div class="invalid-feedback">
+											Please enter a message.
+										</div>
+									</div>
+									<div class="col-12">
+											<button class="btn btn-primary" type="submit" value="Send">Send</button>
+											<button class="btn btn-secondary" id="form-clear-button" type="reset">Clear</button>
+									</div>
+									<div id="response"></div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>Copyright &copy; 2025 Geeyun Jenny Chau. All rights reserved.</li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+			<script src="assets/js/video.js"></script>
+			<script src="assets/js/submitform.js"></script>
+			<script src="assets/js/clearForm.js"></script>
+	</body>
+</html>
