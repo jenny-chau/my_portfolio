@@ -18,7 +18,7 @@ document.getElementById('message-form').addEventListener('submit', async (e) => 
 
         console.log(formData);
 
-        emailjs.sendForm('Portfolio Send Email', 'template_47ysi4b', document.getElementById('message-form'), {publickey: "r4_4uGsU3MmXhyP2y", limitRate: {id: "app", throttle: 10000}})
+        emailjs.sendForm('Portfolio Send Email', 'template_47ysi4b', document.getElementById('message-form'), {limitRate: {id: "app", throttle: 10000}})
         .then(() => {
             document.getElementById('form-clear-button').click();
             responseDiv.classList.add('success-message');
