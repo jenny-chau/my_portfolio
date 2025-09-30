@@ -788,7 +788,7 @@ nav {
 		/* Basic */
 
 			#welcome p {
-				font-size: 14pt;
+				font-size: 14pt !important;
 			}
 
 			body {
