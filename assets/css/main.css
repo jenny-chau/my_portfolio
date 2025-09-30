@@ -783,7 +783,7 @@ nav {
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (min-width: 770px) {
 
 		/* Basic */
 
@@ -955,4 +955,12 @@ nav {
 						margin-top: 0;
 					}
 
+	}
+
+/* Extra Small */
+
+	@media screen and (max-width: 575px) {
+		.headshot {
+			max-width: 60%;
+		}
 	}
