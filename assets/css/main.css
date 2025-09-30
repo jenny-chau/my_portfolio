@@ -787,12 +787,16 @@ nav {
 
 		/* Basic */
 
+			#welcome p {
+				font-size: 14pt;
+			}
+
 			body {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 			input, textarea, select {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 			header {
